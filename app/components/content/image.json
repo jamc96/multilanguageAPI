@@ -19,10 +19,13 @@
     "description": {
       "type": "richtext"
     },
-    "cta": {
+    "ctaUrl": {
       "type": "string"
     },
     "subtitle": {
+      "type": "string"
+    },
+    "ctaLabel": {
       "type": "string"
     }
   }
