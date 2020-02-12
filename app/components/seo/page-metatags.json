@@ -1,0 +1,20 @@
+{
+  "info": {
+    "name": "pageMetatags",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "ogTitle": {
+      "type": "string"
+    },
+    "ogDescription": {
+      "type": "string"
+    },
+    "ogImage": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_seo_page_metatags"
+}
