@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "components_seo_page_metatags",
   "info": {
     "name": "pageMetatags",
     "icon": "address-card"
@@ -13,8 +15,9 @@
     },
     "ogImage": {
       "type": "string"
+    },
+    "ogType": {
+      "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "components_seo_page_metatags"
+  }
 }
