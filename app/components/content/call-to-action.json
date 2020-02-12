@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "components_content_call_to_actions",
+  "info": {
+    "name": "call_to_action",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

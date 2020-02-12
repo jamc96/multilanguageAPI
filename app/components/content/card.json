@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "components_content_cards",
+  "info": {
+    "name": "card",
+    "icon": "id-card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.image"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.paragraph"
+    },
+    "className": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "call_to_actions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.call-to-action"
+    }
+  }
+}

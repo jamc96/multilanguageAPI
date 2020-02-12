@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "components_content_sections",
+  "info": {
+    "name": "section",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.paragraph"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.image"
+    },
+    "call_to_actions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.call-to-action"
+    }
+  }
+}

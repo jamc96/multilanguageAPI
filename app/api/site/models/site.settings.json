@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "sites",
+  "info": {
+    "name": "site"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "language": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "pages": {
+      "collection": "page"
+    }
+  }
+}
