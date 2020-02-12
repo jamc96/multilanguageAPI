@@ -7,13 +7,22 @@
   },
   "options": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
     "altText": {
       "type": "string"
     },
     "url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "subtitle": {
       "type": "string"
     }
   }
