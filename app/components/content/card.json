@@ -17,9 +17,6 @@
       "repeatable": true,
       "component": "content.paragraph"
     },
-    "className": {
-      "type": "string"
-    },
     "title": {
       "type": "string"
     },

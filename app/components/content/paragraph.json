@@ -7,14 +7,8 @@
   },
   "options": {},
   "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "html_content": {
-      "type": "richtext"
-    },
     "content": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }

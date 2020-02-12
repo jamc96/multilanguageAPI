@@ -10,7 +10,7 @@
     "name": {
       "type": "string"
     },
-    "alt_text": {
+    "altText": {
       "type": "string"
     },
     "url": {
