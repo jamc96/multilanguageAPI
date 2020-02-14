@@ -27,6 +27,15 @@
     },
     "slider": {
       "model": "slider"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "title_2": {
+      "type": "string"
     }
   }
 }

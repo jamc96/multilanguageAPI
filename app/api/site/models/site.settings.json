@@ -19,7 +19,8 @@
       "type": "string"
     },
     "pages": {
-      "collection": "page"
+      "collection": "page",
+      "via": "site"
     }
   }
 }

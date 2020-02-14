@@ -3,7 +3,7 @@
   "collectionName": "components_content_slides",
   "info": {
     "name": "slide",
-    "icon": "sliders-h"
+    "icon": "apple-alt"
   },
   "options": {},
   "attributes": {
@@ -20,6 +20,33 @@
       "type": "string"
     },
     "imgAltText": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "rstCode": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "new": {
+      "type": "boolean"
+    },
+    "includedLabel": {
+      "type": "string"
+    },
+    "logoImgUrl": {
       "type": "string"
     }
   }

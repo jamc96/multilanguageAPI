@@ -12,6 +12,9 @@
     },
     "url": {
       "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
     }
   }
 }

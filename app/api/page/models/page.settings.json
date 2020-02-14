@@ -24,6 +24,10 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.page-metatags"
+    },
+    "site": {
+      "via": "pages",
+      "model": "site"
     }
   }
 }
