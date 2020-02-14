@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "sliders",
+  "info": {
+    "name": "slider"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sliders.slide"
+    }
+  }
+}

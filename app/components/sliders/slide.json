@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "components_content_slides",
+  "info": {
+    "name": "slide",
+    "icon": "sliders-h"
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "imgUrl": {
+      "type": "string"
+    },
+    "ibmClickTag": {
+      "type": "string"
+    },
+    "imgAltText": {
+      "type": "string"
+    }
+  }
+}
