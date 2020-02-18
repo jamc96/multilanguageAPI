@@ -36,6 +36,11 @@
     },
     "title_2": {
       "type": "string"
+    },
+    "mixedContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.widget"
     }
   }
 }

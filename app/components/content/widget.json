@@ -1,31 +1,28 @@
 {
   "connection": "default",
-  "collectionName": "components_content_images",
+  "collectionName": "components_content_widgets",
   "info": {
-    "name": "image",
-    "icon": "images"
+    "name": "mixedContent",
+    "icon": "bolt"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "altText": {
-      "type": "string"
-    },
-    "cdnPath": {
-      "type": "string"
-    },
-    "description": {
-      "type": "richtext"
-    },
-    "ctaUrl": {
-      "type": "string"
-    },
     "subtitle": {
       "type": "string"
     },
-    "ctaLabel": {
+    "imgUrl": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "subtitle_2": {
       "type": "string"
     }
   }

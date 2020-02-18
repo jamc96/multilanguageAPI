@@ -26,8 +26,8 @@
       "component": "seo.page-metatags"
     },
     "site": {
-      "via": "pages",
-      "model": "site"
+      "model": "site",
+      "via": "pages"
     }
   }
 }
