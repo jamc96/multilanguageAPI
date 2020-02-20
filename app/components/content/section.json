@@ -25,9 +25,6 @@
       "repeatable": true,
       "component": "content.call-to-action"
     },
-    "slider": {
-      "model": "slider"
-    },
     "title": {
       "type": "string"
     },

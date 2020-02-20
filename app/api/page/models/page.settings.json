@@ -20,14 +20,17 @@
       "repeatable": true,
       "component": "content.section"
     },
-    "Metatags": {
-      "type": "component",
-      "repeatable": false,
-      "component": "seo.page-metatags"
-    },
     "site": {
       "model": "site",
       "via": "pages"
+    },
+    "sliders": {
+      "collection": "slider"
+    },
+    "metas": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.page-metatags"
     }
   }
 }

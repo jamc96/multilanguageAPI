@@ -24,6 +24,9 @@
     },
     "subtitle_2": {
       "type": "string"
+    },
+    "linkLabel": {
+      "type": "string"
     }
   }
 }
