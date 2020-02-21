@@ -37,10 +37,10 @@
     "rstCode": {
       "type": "string"
     },
-    "featured": {
+    "isFeatured": {
       "type": "boolean"
     },
-    "new": {
+    "isNew": {
       "type": "boolean"
     },
     "includedLabel": {
