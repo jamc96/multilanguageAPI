@@ -39,7 +39,7 @@
       "repeatable": true,
       "component": "content.call-to-action"
     },
-    "list": {
+    "listItems": {
       "type": "component",
       "repeatable": true,
       "component": "content.list-item"

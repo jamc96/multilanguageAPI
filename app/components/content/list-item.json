@@ -7,16 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "text": {
-      "type": "string"
+    "items": {
+      "type": "richtext"
     },
-    "styledText": {
-      "type": "string"
-    },
-    "textTwo": {
-      "type": "string"
-    },
-    "url": {
+    "name": {
       "type": "string"
     }
   }
