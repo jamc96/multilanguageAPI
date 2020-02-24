@@ -2,7 +2,7 @@
   "connection": "default",
   "collectionName": "components_content_call_to_actions",
   "info": {
-    "name": "call_to_action",
+    "name": "link",
     "icon": "link"
   },
   "options": {},

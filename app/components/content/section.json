@@ -20,11 +20,6 @@
       "repeatable": true,
       "component": "content.image"
     },
-    "call_to_actions": {
-      "type": "component",
-      "repeatable": true,
-      "component": "content.call-to-action"
-    },
     "title": {
       "type": "string"
     },
@@ -38,6 +33,16 @@
       "type": "component",
       "repeatable": true,
       "component": "content.widget"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.call-to-action"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.list-item"
     }
   }
 }

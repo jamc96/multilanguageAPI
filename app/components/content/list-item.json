@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "components_content_list_items",
+  "info": {
+    "name": "ListItem",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "styledText": {
+      "type": "string"
+    },
+    "textTwo": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
