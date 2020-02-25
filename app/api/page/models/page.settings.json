@@ -21,8 +21,8 @@
       "component": "content.section"
     },
     "site": {
-      "model": "site",
-      "via": "pages"
+      "via": "pages",
+      "model": "site"
     },
     "sliders": {
       "collection": "slider"

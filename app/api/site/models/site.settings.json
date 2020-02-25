@@ -9,9 +9,6 @@
     "timestamps": true
   },
   "attributes": {
-    "language": {
-      "type": "string"
-    },
     "name": {
       "type": "string"
     },
@@ -19,8 +16,11 @@
       "type": "string"
     },
     "pages": {
-      "via": "site",
-      "collection": "page"
+      "collection": "page",
+      "via": "site"
+    },
+    "lang": {
+      "model": "languages"
     }
   }
 }
