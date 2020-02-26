@@ -1,0 +1,59 @@
+{
+  "connection": "default",
+  "collectionName": "promotions",
+  "info": {
+    "name": "promotion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "promoName": {
+      "type": "string"
+    },
+    "themeUrl": {
+      "type": "string"
+    },
+    "themeRegistrationUrl": {
+      "type": "string"
+    },
+    "previousThemeRegistrationUrl": {
+      "type": "string"
+    },
+    "thankYouCopy": {
+      "type": "richtext"
+    },
+    "gadget": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.widget"
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": false,
+      "required": true,
+      "unique": false
+    },
+    "promoYear": {
+      "type": "string"
+    },
+    "currentPromoCode": {
+      "type": "string"
+    },
+    "previousThankYouCopy": {
+      "type": "richtext"
+    },
+    "showExtrasMessage": {
+      "type": "boolean",
+      "default": false
+    },
+    "extrasMessage": {
+      "type": "richtext"
+    },
+    "site": {
+      "model": "site",
+      "via": "promotions"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "info": {
+    "name": "featuredResort",
+    "icon": "procedures"
+  },
+  "options": {},
+  "attributes": {
+    "resortName": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "text"
+    },
+    "adultPriceText": {
+      "type": "string"
+    },
+    "childPriceText": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_content_featured_resorts"
+}

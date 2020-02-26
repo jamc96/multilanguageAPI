@@ -21,6 +21,10 @@
     },
     "lang": {
       "model": "languages"
+    },
+    "promotions": {
+      "via": "site",
+      "collection": "promotion"
     }
   }
 }
