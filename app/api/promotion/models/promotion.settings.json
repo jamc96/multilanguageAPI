@@ -52,8 +52,11 @@
       "type": "richtext"
     },
     "site": {
-      "model": "site",
-      "via": "promotions"
+      "via": "promotions",
+      "model": "site"
+    },
+    "strapiName": {
+      "type": "string"
     }
   }
 }

@@ -23,8 +23,26 @@
       "model": "languages"
     },
     "promotions": {
-      "via": "site",
-      "collection": "promotion"
+      "collection": "promotion",
+      "via": "site"
+    },
+    "currentPromotion": {
+      "type": "string"
+    },
+    "previousPromotion": {
+      "type": "string"
+    },
+    "promotionsYear": {
+      "type": "string"
+    },
+    "previousPromotionsYear": {
+      "type": "string"
+    },
+    "currentPromo": {
+      "model": "promotion"
+    },
+    "previousPromo": {
+      "model": "promotion"
     }
   }
 }
