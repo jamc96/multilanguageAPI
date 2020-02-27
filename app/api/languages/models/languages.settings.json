@@ -2,7 +2,7 @@
   "connection": "default",
   "collectionName": "languages",
   "info": {
-    "name": "languages"
+    "name": "language"
   },
   "options": {
     "increments": true,

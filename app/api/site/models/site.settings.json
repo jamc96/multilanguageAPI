@@ -22,22 +22,6 @@
     "lang": {
       "model": "languages"
     },
-    "promotions": {
-      "collection": "promotion",
-      "via": "site"
-    },
-    "currentPromotion": {
-      "type": "string"
-    },
-    "previousPromotion": {
-      "type": "string"
-    },
-    "promotionsYear": {
-      "type": "string"
-    },
-    "previousPromotionsYear": {
-      "type": "string"
-    },
     "currentPromo": {
       "model": "promotion"
     },

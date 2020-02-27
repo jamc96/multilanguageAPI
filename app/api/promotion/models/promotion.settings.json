@@ -51,10 +51,6 @@
     "extrasMessage": {
       "type": "richtext"
     },
-    "site": {
-      "via": "promotions",
-      "model": "site"
-    },
     "strapiName": {
       "type": "string"
     }
