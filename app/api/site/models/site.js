@@ -23,7 +23,8 @@ module.exports = {
 
   // Before fetching all values.
   // Fired before a `fetchAll` operation.
-  // beforeFetchAll: async (model, columns, options) => {},
+  // beforeFetchAll: async (model, columns, options) => {
+  // },
 
   // After fetching all values.
   // Fired after a `fetchAll` operation.
