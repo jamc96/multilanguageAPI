@@ -1,5 +1,10 @@
 'use strict';
 
+var showdown  = require('showdown'),
+    converter = new showdown.Converter(),
+    text      = '# hello, markdown!',
+    html      = converter.makeHtml(text);
+
 /**
  * Lifecycle callbacks for the `page` model.
  */
@@ -23,7 +28,9 @@ module.exports = {
 
   // Before fetching all values.
   // Fired before a `fetchAll` operation.
-  // beforeFetchAll: async (model, columns, options) => {},
+  beforeFetchAll: async (model, columns, options) => {
+    console.log(columns)
+  },
 
   // After fetching all values.
   // Fired after a `fetchAll` operation.
