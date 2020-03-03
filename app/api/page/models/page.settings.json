@@ -41,7 +41,9 @@
       "type": "dynamiczone",
       "components": [
         "promotions.best-value-suite-777"
-      ]
+      ],
+      "max": 7,
+      "min": 3
     }
   }
 }

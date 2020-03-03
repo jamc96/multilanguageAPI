@@ -26,9 +26,9 @@
     "thankYouCopy": {
       "type": "richtext"
     },
-    "gadget": {
+    "promoWidget": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "content.widget"
     },
     "isActive": {
@@ -60,6 +60,11 @@
     },
     "homeSliderCaption": {
       "type": "string"
+    },
+    "availableAt": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.call-to-action"
     }
   }
 }

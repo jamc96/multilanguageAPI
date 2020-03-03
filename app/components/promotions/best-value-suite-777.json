@@ -10,14 +10,6 @@
     "resortCode": {
       "type": "string"
     },
-    "startDate": {
-      "required": true,
-      "type": "date"
-    },
-    "endDate": {
-      "required": true,
-      "type": "date"
-    },
     "roomCodes": {
       "type": "component",
       "repeatable": true,

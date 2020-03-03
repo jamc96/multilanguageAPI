@@ -19,14 +19,14 @@
     "link": {
       "type": "string"
     },
-    "description": {
-      "type": "string"
-    },
     "subtitle_2": {
       "type": "string"
     },
     "linkLabel": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
