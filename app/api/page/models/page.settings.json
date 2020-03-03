@@ -21,8 +21,8 @@
       "component": "content.section"
     },
     "site": {
-      "via": "pages",
-      "model": "site"
+      "model": "site",
+      "via": "pages"
     },
     "sliders": {
       "collection": "slider"
@@ -36,6 +36,12 @@
       "type": "component",
       "repeatable": false,
       "component": "content.featured-resort"
+    },
+    "bestValueSuites": {
+      "type": "dynamiczone",
+      "components": [
+        "promotions.best-value-suite-777"
+      ]
     }
   }
 }

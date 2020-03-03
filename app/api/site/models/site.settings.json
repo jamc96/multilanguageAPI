@@ -16,8 +16,8 @@
       "type": "string"
     },
     "pages": {
-      "collection": "page",
-      "via": "site"
+      "via": "site",
+      "collection": "page"
     },
     "lang": {
       "model": "languages"
@@ -27,6 +27,9 @@
     },
     "previousPromo": {
       "model": "promotion"
+    },
+    "brand": {
+      "type": "string"
     }
   }
 }

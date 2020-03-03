@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "components_promotions_best_value_suite_777_s",
+  "info": {
+    "name": "bestValueSuite (777)",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "resortCode": {
+      "type": "string"
+    },
+    "startDate": {
+      "required": true,
+      "type": "date"
+    },
+    "endDate": {
+      "required": true,
+      "type": "date"
+    },
+    "roomCodes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.list-item"
+    }
+  }
+}

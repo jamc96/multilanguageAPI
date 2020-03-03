@@ -2,16 +2,18 @@
   "connection": "default",
   "collectionName": "components_content_list_items",
   "info": {
-    "name": "ListItem",
-    "icon": "list"
+    "name": "codeItem",
+    "icon": "barcode"
   },
   "options": {},
   "attributes": {
-    "items": {
-      "type": "richtext"
-    },
     "name": {
       "type": "string"
+    },
+    "value": {
+      "type": "string",
+      "required": true,
+      "maxLength": 5
     }
   }
 }

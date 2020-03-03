@@ -38,11 +38,6 @@
       "type": "component",
       "repeatable": true,
       "component": "content.call-to-action"
-    },
-    "listItems": {
-      "type": "component",
-      "repeatable": true,
-      "component": "content.list-item"
     }
   }
 }
