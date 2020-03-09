@@ -1,8 +1,3 @@
-const showdown  = require('showdown');
-const converter = new showdown.Converter();
-
-// html      = converter.makeHtml(text);
-
 module.exports = {
   /**
    * Retrieve records.
@@ -21,7 +16,7 @@ module.exports = {
     const paragraphs = entities.flatMap(page => page.sections).flatMap(section => section.paragraphs);
 
     paragraphs.forEach(p => {
-  		p.content = converter.makeHtml(p.content);
+  		p.content = strapi.config.functions.converter(p.content);
   	})
 
     return entities;

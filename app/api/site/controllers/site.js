@@ -18,12 +18,6 @@ module.exports = {
       site.pages = await strapi.query('page').find({site:site.id}).map(page => page.uri);
     }
 
-    const paragraphs = entities.flatMap(entity => entity.pages).flatMap(page => page.sections).flatMap(section => section.paragraphs);
-
-    paragraphs.forEach(p => {
-      p.content = strapi.config.functions.converter(p.content);
-  	})
-
     return entities;
   },
 };
