@@ -14,11 +14,11 @@ module.exports = {
 
     let entities;
     if (ctx.query._q) {
-      entities = await strapi.services.site.search(ctx.query);
+      entities = await strapi.services.page.search(ctx.query);
     } else {
-      entities = await strapi.services.site.find(ctx.query);
+      entities = await strapi.services.page.find(ctx.query);
     }
-    const paragraphs = entities.flatMap(entity => entity.pages).flatMap(page => page.sections).flatMap(section => section.paragraphs);
+    const paragraphs = entities.flatMap(page => page.sections).flatMap(section => section.paragraphs);
 
     paragraphs.forEach(p => {
   		p.content = converter.makeHtml(p.content);
