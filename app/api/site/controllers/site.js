@@ -15,7 +15,7 @@ module.exports = {
     }
 
     for(const site of entities){
-      site.pages = await strapi.query('page').find({site:site.id});
+      site.pages = await strapi.query('page').find({site:site.id}).map(page => page.uri);
     }
 
     const paragraphs = entities.flatMap(entity => entity.pages).flatMap(page => page.sections).flatMap(section => section.paragraphs);

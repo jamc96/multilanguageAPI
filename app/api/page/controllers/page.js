@@ -1,8 +1,29 @@
-'use strict';
+const showdown  = require('showdown');
+const converter = new showdown.Converter();
 
-/**
- * Read the documentation (https://strapi.io/documentation/3.0.0-beta.x/concepts/controllers.html#core-controllers)
- * to customize this controller
- */
+// html      = converter.makeHtml(text);
 
-module.exports = {};
+module.exports = {
+  /**
+   * Retrieve records.
+   *
+   * @return {Array}
+   */
+
+  async find(ctx) {
+
+    let entities;
+    if (ctx.query._q) {
+      entities = await strapi.services.page.search(ctx.query);
+    } else {
+      entities = await strapi.services.page.find(ctx.query);
+    }
+    const paragraphs = entities.flatMap(page => page.sections).flatMap(section => section.paragraphs);
+
+    paragraphs.forEach(p => {
+  		p.content = converter.makeHtml(p.content);
+  	})
+
+    return entities;
+  },
+};
