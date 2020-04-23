@@ -561,6 +561,12 @@
                 },
                 "bestValueSuites": {
                   "type": "dynamiczone"
+                },
+                "quickQuote": {
+                  "type": "component"
+                },
+                "canonicalTags": {
+                  "type": "component"
                 }
               }
             }

@@ -1,0 +1,65 @@
+{
+  "connection": "default",
+  "collectionName": "components_content_quick_quotes",
+  "info": {
+    "name": "quickQuote",
+    "icon": "quote-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "title_2": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "startDatePlaceholderText": {
+      "type": "string"
+    },
+    "endDatePlaceholderText": {
+      "type": "string"
+    },
+    "quoteButtonText": {
+      "type": "string"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "groupID": {
+      "type": "integer"
+    },
+    "eventID": {
+      "type": "integer"
+    },
+    "schedulerModeIndex": {
+      "type": "integer"
+    },
+    "occupancyLabels": {
+      "type": "boolean"
+    },
+    "hasCountries": {
+      "type": "boolean"
+    },
+    "hasResorts": {
+      "type": "boolean"
+    },
+    "notOeeRequest": {
+      "type": "boolean"
+    },
+    "confirmationNumber": {
+      "type": "boolean"
+    },
+    "link": {
+      "type": "string"
+    },
+    "linkLabel": {
+      "type": "string"
+    }
+  }
+}
