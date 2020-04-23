@@ -45,6 +45,16 @@
       ],
       "max": 7,
       "min": 3
+    },
+    "quickQuote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.quick-quote"
+    },
+    "canonicalTags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.links"
     }
   }
 }

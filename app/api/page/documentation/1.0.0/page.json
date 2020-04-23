@@ -741,6 +741,9 @@
               },
               "ogType": {
                 "type": "string"
+              },
+              "ogURL": {
+                "type": "string"
               }
             }
           },
@@ -819,6 +822,94 @@
             },
             "minItems": 3,
             "maxItems": 7
+          },
+          "quickQuote": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "subTitle": {
+                "type": "string"
+              },
+              "title_2": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "startDatePlaceholderText": {
+                "type": "string"
+              },
+              "endDatePlaceholderText": {
+                "type": "string"
+              },
+              "quoteButtonText": {
+                "type": "string"
+              },
+              "brand": {
+                "type": "string"
+              },
+              "groupID": {
+                "type": "integer"
+              },
+              "eventID": {
+                "type": "integer"
+              },
+              "schedulerModeIndex": {
+                "type": "integer"
+              },
+              "occupancyLabels": {
+                "type": "boolean"
+              },
+              "hasCountries": {
+                "type": "boolean"
+              },
+              "hasResorts": {
+                "type": "boolean"
+              },
+              "notOeeRequest": {
+                "type": "boolean"
+              },
+              "confirmationNumber": {
+                "type": "boolean"
+              },
+              "link": {
+                "type": "string"
+              },
+              "linkLabel": {
+                "type": "string"
+              }
+            }
+          },
+          "canonicalTags": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "string"
+                },
+                "hreflang": {
+                  "type": "string"
+                },
+                "href": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -992,6 +1083,9 @@
               },
               "ogType": {
                 "type": "string"
+              },
+              "ogURL": {
+                "type": "string"
               }
             }
           },
@@ -1070,6 +1164,94 @@
             },
             "minItems": 3,
             "maxItems": 7
+          },
+          "quickQuote": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "subTitle": {
+                "type": "string"
+              },
+              "title_2": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "startDatePlaceholderText": {
+                "type": "string"
+              },
+              "endDatePlaceholderText": {
+                "type": "string"
+              },
+              "quoteButtonText": {
+                "type": "string"
+              },
+              "brand": {
+                "type": "string"
+              },
+              "groupID": {
+                "type": "integer"
+              },
+              "eventID": {
+                "type": "integer"
+              },
+              "schedulerModeIndex": {
+                "type": "integer"
+              },
+              "occupancyLabels": {
+                "type": "boolean"
+              },
+              "hasCountries": {
+                "type": "boolean"
+              },
+              "hasResorts": {
+                "type": "boolean"
+              },
+              "notOeeRequest": {
+                "type": "boolean"
+              },
+              "confirmationNumber": {
+                "type": "boolean"
+              },
+              "link": {
+                "type": "string"
+              },
+              "linkLabel": {
+                "type": "string"
+              }
+            }
+          },
+          "canonicalTags": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "string"
+                },
+                "hreflang": {
+                  "type": "string"
+                },
+                "href": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       }

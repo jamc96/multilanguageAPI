@@ -18,6 +18,9 @@
     },
     "ogType": {
       "type": "string"
+    },
+    "ogURL": {
+      "type": "string"
     }
   }
 }

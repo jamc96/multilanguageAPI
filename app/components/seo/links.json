@@ -1,0 +1,20 @@
+{
+  "info": {
+    "name": "links",
+    "icon": "external-link-alt"
+  },
+  "options": {},
+  "attributes": {
+    "rel": {
+      "type": "string"
+    },
+    "hreflang": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_seo_links"
+}
